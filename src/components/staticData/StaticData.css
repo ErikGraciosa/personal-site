@@ -5,10 +5,7 @@ html {
 div {
   display: flex;
   flex-direction: column;
-}
-
-p {
-  font-size: 90px;
+  padding-top: 15vh;
 }
 
 a, p {
@@ -21,3 +18,11 @@ a {
   padding: 5px;
 }
 
+.whoami {
+  font-size: 90px;
+}
+
+.title {
+  font-size: 30px;
+  padding-bottom: 5px;
+}

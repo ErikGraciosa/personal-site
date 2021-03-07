@@ -3,8 +3,15 @@
 exports[`App component renders App 1`] = `
 <DocumentFragment>
   <div>
-    <p>
+    <p
+      class="whoami"
+    >
       Erik Graciosa
+    </p>
+    <p
+      class="title"
+    >
+      Full Stack Software Engineer
     </p>
     <a
       href="https://github.com/ErikGraciosa"
