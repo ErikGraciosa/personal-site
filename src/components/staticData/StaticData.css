@@ -17,3 +17,7 @@ a, p {
   color: white;
 }
 
+a {
+  padding: 5px;
+}
+
