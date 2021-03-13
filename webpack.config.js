@@ -84,6 +84,10 @@ module.exports = {
           options: { limit: 1000 },
         },
       },
+      {
+        test: /\.(pdf|gif)$/,
+        use: 'file-loader?name=[path][name].[ext]',
+      },
     ],
   },
 };
