@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './StaticData.css';
+import resume from '../documents/ErikGraciosaResume.pdf';
 
 function StaticData() {
   return (
@@ -14,6 +15,9 @@ function StaticData() {
         href="https://www.linkedin.com/in/erikgraciosa" 
         target="_blank"
         rel="noreferrer noopener">Visit my LinkedIn</a>
+      <a 
+        href={resume} 
+        target="_blank">View my Resume</a>
     </div>
   );
 }
