@@ -1,29 +1,39 @@
-html {
+.StaticData {
   background-color: rgb(20, 72, 118);
-}
-
-div {
-  display: flex;
-  flex-direction: column;
-  padding-top: 15vh;
-}
-
-a, p {
   font-family: Arial, Helvetica, sans-serif;
-  margin: auto;
-  color: white;
-}
+  
+  div {
+    display: flex;
+    flex-direction: column;
+    
+  }
 
-a {
-  padding: 5px;
-}
+  a, p {
+    margin: auto;
+    color: white;
+  }
 
-.whoami {
-  font-size: 90px;
-}
+  a {
+    padding: 5px;
+  }
 
-.title {
-  font-size: 30px;
-  padding-bottom: 5px;
-}
+  .whoami {
+    margin: auto;
+    padding-top: 15vh;
+    font-size: 90px;
+  }
 
+  .title {
+    font-size: 30px;
+    padding-bottom: 5px;
+  }
+
+  .socialSVGS {
+    height: 50px;
+    width: 50px;
+  }
+
+  .socialsBox {
+    display: block;
+  }
+}
