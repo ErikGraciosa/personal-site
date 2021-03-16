@@ -20,16 +20,20 @@ function ProjectCard({project}) {
       <section>
         <hr/>
         <h1>{title}</h1>
-        <p><span className={styles.bigger} >Livesite: </span>{description}</p>
+        <p><span className={styles.bigger} >Description: </span>{description}</p>
         <a href={livesite}>{livesite}</a>
-        {githubFE ? <p><span className={styles.bigger} >Front End Repo: </span>{githubFE}</p> : null}
-        {githubBE ? <p><span className={styles.bigger} >Back End Repo: </span>{githubBE}</p> : null}
+        {githubFE
+          ? <p><span className={styles.bigger} >Front End Repo: </span>{githubFE}</p> 
+          : null}
+        {githubBE
+          ? <p><span className={styles.bigger} >Back End Repo: </span>{githubBE}</p>
+          : null}
         <p><span className={styles.bigger} >STACK: </span>{stack.map(el => ` ${el} |`)}</p>
         <p><span className={styles.bigger} >Key Libraries: </span>{keyLibraries.map(el => ` ${el} |`)}</p>
         <ul><span className={styles.bigger} >Key Contributions:</span></ul>
         {contributions.map(el => <li key={el}>{el}</li>)}
       </section>
-      <img className={styles.projectImage} src={image} />
+      <img className={styles.projectImage} src={image}/>
     </div>
   );
 }

@@ -20,12 +20,9 @@
     font-weight: 700;
   }
 
-  img {
-    margin-right: 10px
-  }
-
   .projectImage {
     width: 500px;
+    margin-right: 10px;
   }
 
   .bigger {
