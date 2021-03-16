@@ -10,6 +10,7 @@
 
   a, p {
     margin: auto;
+<<<<<<< HEAD
   }
 
   a {
@@ -41,6 +42,31 @@
     background-color: white;
   }
 
+=======
+    color: white;
+  }
+
+  a {
+    padding: 5px;
+  }
+
+  .whoami {
+    margin: auto;
+    padding-top: 15vh;
+    font-size: 90px;
+  }
+
+  .title {
+    font-size: 30px;
+    padding-bottom: 5px;
+  }
+
+  .socialSVGS {
+    height: 50px;
+    width: 50px;
+  }
+
+>>>>>>> 4c728e511f4678b171ebd83dbfab1084b435f2cc
   .socialsBox {
     display: block;
   }
