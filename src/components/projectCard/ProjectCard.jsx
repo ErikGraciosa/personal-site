@@ -26,7 +26,7 @@ function ProjectCard({project}) {
           ? <p><span className={styles.bigger} >Front End Repo: </span><a href={githubFE}> {githubFE}</a></p> 
           : null}
         {githubBE
-          ? <p><span className={styles.bigger} >Back End Repo: </span><a href={githubFE}>{githubBE}</a></p>
+          ? <p><span className={styles.bigger} >Back End Repo: </span><a href={githubBE}>{githubBE}</a></p>
           : null}
         <p><span className={styles.bigger} >STACK: </span>{stack.map(el => ` ${el} |`)}</p>
         <p><span className={styles.bigger} >Key Libraries: </span>{keyLibraries.map(el => ` ${el} |`)}</p>
