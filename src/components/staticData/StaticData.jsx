@@ -1,10 +1,9 @@
 import React from 'react';
 import styles from './StaticData.css';
-import resume from '../documents/ErikGraciosaResume.pdf';
+import resume from '../../documents/ErikGraciosaResume.pdf';
 import GithubLogo from '../../images/iconmonstr-github-1.svg';
 import LinkedInLogo from '../../images/iconmonstr-linkedin-3.svg';
 import TwitterLogo from '../../images/iconmonstr-twitter-3.svg';
-import { render } from 'react-dom';
 
 const StaticData = () => {
   return (
@@ -17,24 +16,27 @@ const StaticData = () => {
           target="_blank"
           rel="noreferrer noopener">
           <img 
-            className={styles.socialSVGS}
-            src={GithubLogo} />
+            className={`${styles.socialSVGS} ${styles.hover}`}
+            src={GithubLogo}
+            alt="Github Link" />
         </a>
         <a 
           href="https://www.linkedin.com/in/erikgraciosa" 
           target="_blank"
           rel="noreferrer noopener">
           <img 
-            className={styles.socialSVGS}
-            src={LinkedInLogo} />
+            className={`${styles.socialSVGS} ${styles.hover}`}
+            src={LinkedInLogo}
+            alt="LinkedIn Link" />
         </a>
         <a 
           href="https://twitter.com/ErikGraciosa" 
           target="_blank"
           rel="noreferrer noopener">
           <img 
-            className={styles.socialSVGS}
-            src={TwitterLogo} />
+            className={`${styles.socialSVGS} ${styles.hover}`}
+            src={TwitterLogo}
+            alt="Twitter Link" />
         </a>
       </div>
       <a 

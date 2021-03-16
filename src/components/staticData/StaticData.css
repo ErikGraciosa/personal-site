@@ -10,16 +10,20 @@
 
   a, p {
     margin: auto;
-    color: white;
   }
 
   a {
-    padding: 5px;
+    padding: 5px 3px;
+  }
+
+  .hover:hover {
+    transform: scale(1.2);
   }
 
   .whoami {
     margin: auto;
-    padding-top: 15vh;
+    padding-top: 5vh;
+    margin-left: -4px;
     font-size: 90px;
   }
 
@@ -29,8 +33,12 @@
   }
 
   .socialSVGS {
+    padding: 10px;
     height: 50px;
     width: 50px;
+  }
+  .socialSVG:hover {
+    background-color: white;
   }
 
   .socialsBox {
