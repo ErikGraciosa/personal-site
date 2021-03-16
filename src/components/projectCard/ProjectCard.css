@@ -1,0 +1,31 @@
+.ProjectCard {
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 20px;
+
+  * {
+    padding: 3px 0px;
+  }
+
+  hr {
+    border: solid black 2px;
+    color: black;
+    background-color: black;
+    margin: 0px 10px 10px 0px;
+  }
+
+  h1 {
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  .projectImage {
+    width: 500px;
+    margin-right: 10px;
+  }
+
+  .bigger {
+    font-weight: 900;
+  }
+}
