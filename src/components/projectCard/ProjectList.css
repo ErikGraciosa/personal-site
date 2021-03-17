@@ -12,4 +12,15 @@
     font-weight: 700;
   }
 
+  @media only screen and (max-width: 600px) {
+    div:nth-child(2n)  {
+      flex-direction: column;
+    }
+
+    .display {
+      flex-direction: column;
+    }
+  }
 }
+
+
