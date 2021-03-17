@@ -19,21 +19,21 @@ function ProjectCard({project}) {
     <div className={styles.ProjectCard}>
       <section>
         <hr/>
-        <h1>{title}</h1>
+        <a className={styles.title} href={livesite}>{title}</a>
         <p><span className={styles.bigger} >Description: </span>{description}</p>
-        <a href={livesite}>{livesite}</a>
+        
         {githubFE
           ? <p><span className={styles.bigger} >Front End Repo: </span><a href={githubFE}> {githubFE}</a></p> 
           : null}
         {githubBE
           ? <p><span className={styles.bigger} >Back End Repo: </span><a href={githubBE}>{githubBE}</a></p>
           : null}
-        <p><span className={styles.bigger} >STACK: </span>{stack.map(el => ` ${el} |`)}</p>
-        <p><span className={styles.bigger} >Key Libraries: </span>{keyLibraries.map(el => ` ${el} |`)}</p>
-        <ul><span className={styles.bigger} >Key Contributions:</span></ul>
+        <p><span className={styles.bigger}>STACK: </span>{stack.map(el => ` ${el} |`)}</p>
+        <p><span className={styles.bigger}>Key Libraries: </span>{keyLibraries.map(el => ` ${el} |`)}</p>
+        <ul><span className={styles.bigger}>Key Contributions:</span></ul>
         {contributions.map(el => <li key={el}>{el}</li>)}
       </section>
-      <img className={styles.projectImage} src={image}/>
+      <a href={livesite}><img className={styles.projectImage} src={image}/></a>
     </div>
   );
 }

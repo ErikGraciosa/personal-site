@@ -22,9 +22,8 @@ export const projects = [
       'nodemailer',
       'superagent-throttle',
       'bcryptjs'],
-    description: `A back-end webscraper notifying users of new real estate via SMS, based on user entered filters. Deployed on Heroku with server side rendering. Built in a
-    one week sprint with four developers remotely via Zoom.`,
-    contributions: ['Set up user authentication, user filter input form, and user model writing to PostgreSQL database.', 'Enabled constant integration via Github and Heroku for a dev and production site with CI deploy-constraints.', 'Sketched wireframe mockups and built endpoint addressing of PUG server- side rendered views for users to enter and view filters.'],
+    description: `A back-end webscraper notifying users of new real estate via SMS, based on user entered filters. Deployed on Heroku with server side rendering. Built in a one week sprint with four developers remotely via Zoom.`,
+    contributions: ['Set up user authentication, user filter input form, and user model writing to PostgreSQL database.', 'Enabled constant integration via Github and Heroku for a dev and production site with CI deploy-constraints.', 'Sketched wireframe mockups and built endpoint addressing of PUG server-side rendered views for users to enter and view filters.'],
   },
   {
     title: 'Git-There',
