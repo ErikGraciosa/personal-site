@@ -21,12 +21,11 @@ function ProjectCard({project}) {
         <hr/>
         <a className={styles.title} href={livesite}>{title}</a>
         <p><span className={styles.bigger} >Description: </span>{description}</p>
-        
         {githubFE
-          ? <p><span className={styles.bigger} >Front End Repo: </span><a href={githubFE}> {githubFE}</a></p> 
+          ? <p><a href={githubFE}><span className={styles.bigger}>Front End Github Repo </span></a></p> 
           : null}
         {githubBE
-          ? <p><span className={styles.bigger} >Back End Repo: </span><a href={githubBE}>{githubBE}</a></p>
+          ? <p><a href={githubBE}><span className={styles.bigger}>Back End Github Repo </span></a></p>
           : null}
         <p><span className={styles.bigger}>STACK: </span>{stack.map(el => ` ${el} |`)}</p>
         <p><span className={styles.bigger}>Key Libraries: </span>{keyLibraries.map(el => ` ${el} |`)}</p>
