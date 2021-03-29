@@ -2,7 +2,7 @@
 import React from 'react';
 import styles from './ProjectCard.css';
 
-function ProjectCard({project}) {
+function ProjectCard({ project }) {
   const {
     title,
     image,
