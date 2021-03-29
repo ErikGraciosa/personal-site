@@ -4,6 +4,7 @@ function AboutMe() {
   return (
     <div>
       <h1>About Me</h1>
+      <hr/>
       <p>Mechanical Engineer ----> Software Engineer</p>
     </div>
   );

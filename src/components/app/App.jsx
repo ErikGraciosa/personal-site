@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import ProjectList from '../projectCard/ProjectList';
+import HomePage from '../views/HomePage';
 import StaticData from '../staticData/StaticData';
 import Footer from '../footer/Footer';
 import SiteThumbnail from '../siteThumbnail/SiteThumbnail';
@@ -13,7 +13,7 @@ export default function App() {
       <Router>
         <StaticData/>
         <Switch>
-          <Route exact path="/" component={ProjectList}/>
+          <Route exact path="/" component={HomePage}/>
           <Route
             exact
             path="/site-preview-thumbnail"
