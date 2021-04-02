@@ -1,4 +1,4 @@
-/* eslint-disable*/
+/* eslint-disable */
 import React from 'react';
 import styles from './ProjectCard.css';
 
@@ -42,7 +42,16 @@ function ProjectCard({ project }) {
           }
         })}</p>
         <ul><span className={styles.bigger}>Key Contributions:</span></ul>
-        {contributions.map(el => <li key={el}>{el}</li>)}
+        {contributions.map(el => {
+          if(el.substring(0, 4) === 'http') {
+            return (<li>
+              <a key={el} href={el}>Link to New Relic hackathon blog post.</a>
+            </li>)
+          } else {
+            return <li key={el}>{el}</li>
+          }
+        }
+      )}
       </section>
       <a href={livesite}><img className={styles.projectImage} src={image}/></a>
     </div>

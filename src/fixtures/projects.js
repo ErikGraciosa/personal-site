@@ -42,7 +42,7 @@ export const projects = [
       'superagent',
       'bcryptjs'],
     description: 'A transportation aggregating app visualizing Nike/Lime/Spin scooters and Trimet bus stops using a Google Maps React element and deployed on Netlify.',
-    contributions: ['Led team in one week sprint from sandbox idea to user-stories to dev tickets.', 'Built Trimet details page to navigate to bus stop details from user click on map icon using Trimet API.', 'Wrote munging functions to pass on location data from JSON and filter scooters within 300 meters.'],
+    contributions: ['Led team in one week sprint from sandbox idea to user-stories to dev tickets.', 'Built Trimet details page to navigate to bus stop details from user click on map icon using Trimet API.', 'Wrote munging functions to pass on location data from JSON and filter scooters within 300 meters.', 'Added NewRelic to monitor API call response times for the proxy server and entered to a hackathon.', 'https://www.therelicans.com/erikgraciosa/bikes-buses-scooters-galore-4ggf'],
   },
   {
     title: 'Pool Party',
