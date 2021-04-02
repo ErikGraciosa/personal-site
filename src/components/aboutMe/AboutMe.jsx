@@ -11,8 +11,7 @@ function AboutMe() {
       <br/>
       <p>Formerly a team leader in projects at HP, Microsoft and Element Six that designed, planned, and directed engineers and technicians to install and refine factory automation equipment across printing, touchscreen, and lab-grown diamond industries. As a mechanical engineer, I worked on large capital automation equipment writing scripts, analyzing data, and finding bugs in PLC code, HP flexscript and (CNC) G-code, further description of achievements in previous roles can be read in my work history.</p>
       <br/>
-      <p>View my github for code samples during training in full stack javascript.
-        <a href="https://github.com/ErikGraciosa">https://github.com/ErikGraciosa</a></p>
+      <p>View my github for code samples during training in full stack javascript. <a href="https://github.com/ErikGraciosa">https://github.com/ErikGraciosa</a></p>
       <br/>
       <p>Hobbiest fixer of pinball machines, aircooled Volkswagens, dirtbikes and bicycles.</p>
     </div>
