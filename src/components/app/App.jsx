@@ -13,7 +13,9 @@ export default function App() {
       <Router>
         <StaticData/>
         <Switch>
-          <Route exact path="/" component={HomePage}/>
+          <Route
+            exact path="/"
+            component={HomePage}/>
           <Route
             exact
             path="/site-preview-thumbnail"

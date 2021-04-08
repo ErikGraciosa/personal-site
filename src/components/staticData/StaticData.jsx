@@ -42,7 +42,7 @@ const StaticData = () => {
       <a 
         href={resume} 
         target="_blank"
-        rel="noreferrer noopener">View my Resume</a>
+        rel="noreferrer noopener">View my Resume for contact information.</a>
     </div>
   );
   
