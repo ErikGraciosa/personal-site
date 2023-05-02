@@ -6,6 +6,7 @@ import Footer from '../footer/Footer';
 import SiteThumbnail from '../siteThumbnail/SiteThumbnail';
 import './reset.css';
 import './App.css';
+import PinballWriteUps from '../pinballWriteUps/PinballWriteUps';
 
 export default function App() {
   return (
@@ -20,6 +21,10 @@ export default function App() {
             exact
             path="/site-preview-thumbnail"
             component={SiteThumbnail}/>
+            <Route
+            exact
+            path="/secret-ship-show-pintips"
+            component={PinballWriteUps}/>
         </Switch>
         <Footer/>
       </Router>
