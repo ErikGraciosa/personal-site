@@ -6,7 +6,9 @@ import Footer from '../footer/Footer';
 import SiteThumbnail from '../siteThumbnail/SiteThumbnail';
 import './reset.css';
 import './App.css';
-import PinballWriteUps from '../pinballWriteUps/PinballWriteUps';
+import PinballTable from '../pinballTable/PinballTable';
+import Pinball from '../../fixtures/pinball.json';
+
 
 export default function App() {
   return (
@@ -24,7 +26,7 @@ export default function App() {
             <Route
             exact
             path="/secret-ship-show-pintips"
-            component={PinballWriteUps}/>
+            component={(props) => <PinballTable data={Pinball} />} />
         </Switch>
         <Footer/>
       </Router>
