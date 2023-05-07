@@ -24,6 +24,12 @@ function SortableAccordionTable({ data }) {
 
   const sortedData = data.gameList.sort((a, b) => a.title.localeCompare(b.title));
 
+  const checkHeader = document.getElementById("headerData");
+  console.log(checkHeader)
+  if(checkHeader) {
+    checkHeader.style.display = "none";
+  }
+
   return (
     <Table>
       <TableHead>

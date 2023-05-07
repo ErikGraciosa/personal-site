@@ -11,22 +11,31 @@ import Pinball from '../../fixtures/pinball.json';
 
 
 export default function App() {
+
+  const Layout = ({ children }) => (
+    <div>
+      <StaticData />
+        {children}
+    </div>
+  )
+
   return (
     <>
       <Router>
-        <StaticData/>
         <Switch>
-          <Route
-            exact path="/"
-            component={HomePage}/>
           <Route
             exact
             path="/site-preview-thumbnail"
             component={SiteThumbnail}/>
-            <Route
+          <Route
             exact
             path="/secret-ship-show-pintips"
             component={(props) => <PinballTable data={Pinball} />} />
+          <Layout>
+            <Route
+              exact path="/"
+              component={HomePage}/>
+          </Layout>
         </Switch>
         <Footer/>
       </Router>

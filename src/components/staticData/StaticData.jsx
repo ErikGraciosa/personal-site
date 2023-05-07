@@ -5,9 +5,9 @@ import GithubLogo from '../../images/iconmonstr-github-1.svg';
 import LinkedInLogo from '../../images/iconmonstr-linkedin-3.svg';
 import TwitterLogo from '../../images/iconmonstr-twitter-3.svg';
 
-const StaticData = () => {
+const StaticData = () => { 
   return (
-    <div className={styles.StaticData}>
+    <div id="headerData" className={styles.StaticData}>
       <p className={styles.whoami}>Erik Graciosa</p>
       <p className={styles.title}>Full Stack Software Engineer</p>
       <div className={styles.socialsBox}>
