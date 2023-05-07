@@ -52,6 +52,7 @@ function SortableAccordionTable({ data }) {
                   aria-label="expand row"
                   size="small"
                   onClick={() => handleRowClick(row.title)}
+                  sx={{ border: 1, boxShadow: 3 }}
                 >
                   {openRows[row.title] ? (
                     <KeyboardArrowUp />
