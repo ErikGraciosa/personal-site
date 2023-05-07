@@ -3,7 +3,12 @@
     {
       "title": "Attack From Mars",
       "notes": "Super skill return from left orbit was a good live catch. Lock shot was repeatable.",
-      "tilt": "Fair"
+      "tilt": "Fair",
+      "lean": "",
+      "sling-sensitivity": "",
+      "postPass": "",
+      "deadBounce": ""
+
     },
     {
       "title": "Tales of the Arabian Nights",
@@ -32,7 +37,7 @@
     },
     {
       "title": "Champion Pub",
-      "notes": "Kickout from left scoop was dead bouncing left to right like Moster Bash. Spitting gallery video mode wait for audible \"ding\" before moving spittoon. Middle pop up ball saver was on for a long time during fights. Right post maze should be avoided, was going to outlane 8/10 times.",
+      "notes": "Kickout from left scoop was dead bouncing left to right like Monster Bash. Spitting gallery video mode wait for audible \"ding\" before moving spittoon. Middle pop up ball saver was on for a long time during fights. Right post maze should be avoided, was going to outlane 8/10 times.",
       "tilt": "Fair"
     },
     {
@@ -151,7 +156,7 @@
       "tilt": "unknown"
     },
     {
-      "title": "Moster Bash",
+      "title": "Monster Bash",
       "notes": "unknown",
       "tilt": "unknown"
     },
