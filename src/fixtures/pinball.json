@@ -22,7 +22,7 @@
     },
     {
       "title": "Addams Family",
-      "notes": "Skill shot at 71%, ball locks sometimes kicked from graveyard but may have been weird. Live catch out of scoop on left flipper was good. Post pass left to right was good. Backhand the ramp not possible. Upper ramp was very hard to hit and seemed earlier.",
+      "notes": "Skill shot at 71%+, ball locks sometimes kicked from graveyard but may have been weird. Live catch out of scoop on left flipper was good. Post pass left to right was good. Backhand the ramp not possible. Upper ramp was very hard to hit and seemed earlier.",
       "tilt": "Slap save would tilt game, very sensitive"
     },
     {
@@ -32,7 +32,7 @@
     },
     {
       "title": "Whitewater",
-      "notes": "Scoop kickout inconsistent, dead bounce was not working 5/8. Drop catch would sometimes be too good and moonwalk out the right side.",
+      "notes": "Scoop kickout inconsistent, dead bounce was not working. Drop catch would sometimes be too good and moonwalk out the right side. Was flipping away for scoop kickouts",
       "tilt": "unknown"
     },
     {
@@ -52,7 +52,7 @@
     },
     {
       "title": "Deadpool",
-      "notes": "Scoop kickout was fine",
+      "notes": "Scoop kickout was fine, can drop catch and get two boom letters",
       "tilt": "Fair"
     },
     {
@@ -62,7 +62,7 @@
     },
     {
       "title": "Black Night: Sword of Rage",
-      "notes": "Sometimes shield lock rejects like usual, can backhand the left standup add-a-ball target",
+      "notes": "Sometimes shield lock rejects like usual, can backhand the left standup add-a-ball target and get to orbit scoop",
       "tilt": "Fair"
     },
     {
@@ -82,17 +82,17 @@
     },
     {
       "title": "Dr. Dude",
-      "notes": "Left shot repeatable, skillshot is a full plunge at 75K to hit the 100K, can backhand the gift of gab",
+      "notes": "Left shot repeatable, skillshot is a full plunge at 75K to hit the 100K but sometimes missed target, can backhand the gift of gab",
       "tilt": "unknown"
     },
     {
       "title": "Total Nuclear Annihilation",
-      "notes": "Spinners were not very spinny, flippers got weak on long games",
+      "notes": "Spinners were not very spinny, flippers got weak on long games, shot to lock much earlier than expected from left flipper",
       "tilt": "unknown"
     },
     {
       "title": "Walking Dead",
-      "notes": "Prison doors open",
+      "notes": "Prison doors open, can start a mode even if in multiball",
       "tilt": "Fair"
     },
     {
@@ -112,7 +112,7 @@
     },
     {
       "title": "Indiana Jones Stern",
-      "notes": "unknown",
+      "notes": "Scoop kickout could trap on left.",
       "tilt": "unknown"
     },
     {
@@ -127,7 +127,7 @@
     },
     {
       "title": "Guardians of the Galaxy",
-      "notes": "Standard set up",
+      "notes": "Standard set up, holding left flipper up out of scoop would reliably send ball to right flipper.",
       "tilt": "Fair"
     },
     {
@@ -137,7 +137,7 @@
     },
     {
       "title": "Ghostbusters Pro",
-      "notes": "",
+      "notes": "Kickout from right scoop dead bounces good to right flipper, has ball save. Kickout from left scoop can live catch on the left, has ball save.",
       "tilt": "Fair, much lighter than Ship"
     },
     {
@@ -162,12 +162,12 @@
     },
     {
       "title": "Dialed In",
-      "notes": "Upper flipper weak, shots earlier than expected",
+      "notes": "Upper flipper weak, shots earlier than expected from upper, right outlane drains often",
       "tilt": "unknown"
     },
     {
-      "title": "Iron Maiden",
-      "notes": "unknown",
+      "title": "Iron Maiden Pro",
+      "notes": "Return from left orbit goes to right flipper for a good drop catch, right flipper gets too weak to hit center ramp",
       "tilt": "unknown"
     },
     {
@@ -177,7 +177,7 @@
     },
     {
       "title": "Kiss",
-      "notes": "Gene head has ball save on kickout, plays fastx",
+      "notes": "Gene head has ball save on kickout, plays fast",
       "tilt": "unknown"
     },
     {
