@@ -39,10 +39,6 @@ const StaticData = () => {
             alt="Twitter Link" />
         </a>
       </div>
-      <a 
-        href={resume} 
-        target="_blank"
-        rel="noreferrer noopener">View my Resume for contact information.</a>
     </div>
   );
   
