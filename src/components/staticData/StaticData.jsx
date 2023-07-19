@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './StaticData.css';
-import resume from '../../documents/ErikGraciosaResume.pdf';
 import GithubLogo from '../../images/iconmonstr-github-1.svg';
 import LinkedInLogo from '../../images/iconmonstr-linkedin-3.svg';
 import TwitterLogo from '../../images/iconmonstr-twitter-3.svg';
@@ -39,10 +38,6 @@ const StaticData = () => {
             alt="Twitter Link" />
         </a>
       </div>
-      <a 
-        href={resume} 
-        target="_blank"
-        rel="noreferrer noopener">View my Resume for contact information.</a>
     </div>
   );
   
