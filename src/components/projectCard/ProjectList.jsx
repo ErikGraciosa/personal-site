@@ -13,7 +13,7 @@ function ProjectList() {
     <div className={styles.ProjectList}>
       <div className={styles.display}>
         <h1>Projects</h1>
-        {allProjects.slice(0,2)}
+        {allProjects.slice(0,3)}
       </div>
     </div>
   );
