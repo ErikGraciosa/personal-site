@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders App 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="StaticData"
+      id="headerData"
+    >
+      <p
+        class="whoami"
+      >
+        Erik Graciosa
+      </p>
+      <p
+        class="title"
+      >
+        Full Stack Software Engineer
+      </p>
+      <div
+        class="socialsBox"
+      >
+        <a
+          href="https://github.com/ErikGraciosa"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
+          <img
+            alt="Github Link"
+            class="socialSVGS hover"
+            src="/path/image"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/erikgraciosa"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
+          <img
+            alt="LinkedIn Link"
+            class="socialSVGS hover"
+            src="/path/image"
+          />
+        </a>
+        <a
+          href="https://twitter.com/ErikGraciosa"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
+          <img
+            alt="Twitter Link"
+            class="socialSVGS hover"
+            src="/path/image"
+          />
+        </a>
+      </div>
+    </div>
+    <div
+      class="TechStack"
+    >
+      <h1>
+        Tech Stack
+      </h1>
+      <hr />
+      <p>
+        <span
+          class="bigger"
+        >
+          Languages: 
+        </span>
+         Javascript | Typescript | C# | HTML | CSS | SQL 
+      </p>
+      <p>
+        <span
+          class="bigger"
+        >
+          Frameworks: 
+        </span>
+         React | Angular | Node.js | .NET | Express | PUG(Jade) | Redux 
+      </p>
+      <p>
+        <span
+          class="bigger"
+        >
+          Databases: 
+        </span>
+         PostgreSQL 
+      </p>
+      <p>
+        <span
+          class="bigger"
+        >
+          Testing: 
+        </span>
+         Jest 
+      </p>
+      <p>
+        <span
+          class="bigger"
+        >
+          Other: 
+        </span>
+         Github | Heroku | Netlify | VSCode | Postman | PGAdmin | Agile/Scrum | Miro | Jira | StripeAPI | NewRelic 
+      </p>
+      <p>
+        <span
+          class="bigger"
+        >
+          Certifications: 
+        </span>
+         AZ204 | AZ900 
+      </p>
+    </div>
+    <div
+      class="AboutMe"
+    >
+      <h1>
+        About Me
+      </h1>
+      <hr />
+      <p>
+        Full Stack Engineer working in React, Angular, Typescript, C#, NodeJS/Express, PostgreSQL. A dependable engineer with a passion for implementing elegant displays of data in user interactive formats. Working for health care industry companies in a consulting nature at Slalom Consulting to deploy features to current and future apps since 2021.
+      </p>
+      <p>
+        Formerly a mechanical engineer and team leader in projects at HP, Microsoft, and Element Six that designed, planned, and directed engineers and technicians to install and refine factory automation equipment across printing, touchscreen, and lab-grown diamond industries. As a mechanical engineer, I worked on large capital automation equipment writing scripts, analyzing data, and finding bugs in PLC code, HP flexscript and (CNC) G-code, further description of achievements in previous roles can be read in my work history.
+      </p>
+      <p>
+        Hobbiest fixer of pinball machines, aircooled Volkswagens, and bicycles.
+      </p>
+    </div>
+  </div>
+  <div
+    class="Footer"
+  />
+</DocumentFragment>
+`;
