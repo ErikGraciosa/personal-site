@@ -6,9 +6,8 @@ import TechStack from '../techStack/TechStack';
 function HomePage() {
   return (
     <>
-      <TechStack/>
-      <AboutMe/>
-      <ProjectList/>
+      <TechStack />
+      <AboutMe />
     </>
   );
 }

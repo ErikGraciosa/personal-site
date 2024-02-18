@@ -4,5 +4,6 @@ export const stack = {
   frameworks: ['React', 'Angular', 'Node.js', '.NET', 'Express', 'PUG(Jade)', 'Redux'],
   databases: ['PostgreSQL'],
   testing: ['Jest'],
-  other: ['Github', 'Heroku', 'Netlify', 'VSCode', 'Postman', 'PGAdmin', 'Agile/Scrum', 'Miro', 'Jira', 'StripeAPI', 'NewRelic']
+  other: ['Github', 'Heroku', 'Netlify', 'VSCode', 'Postman', 'PGAdmin', 'Agile/Scrum', 'Miro', 'Jira', 'StripeAPI', 'NewRelic'],
+  certifications: ['AZ204', 'AZ900']
 };
