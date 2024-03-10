@@ -5,5 +5,5 @@ export const stack = {
   databases: ['PostgreSQL'],
   testing: ['Jest'],
   other: ['Github', 'Heroku', 'Netlify', 'VSCode', 'Postman', 'PGAdmin', 'Agile/Scrum', 'Miro', 'Jira', 'StripeAPI', 'NewRelic'],
-  certifications: ['AZ204 - Azure Developer Associate', 'AZ900 - Azure Fundementals', 'AWS Certified Developer Associate]
+  certifications: ['AZ204 - Azure Developer Associate', 'AZ900 - Azure Fundementals', 'AWS Certified Developer Associate']
 };
