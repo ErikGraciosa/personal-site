@@ -14,6 +14,16 @@ const theme = createTheme({
       main: red.A400,
     },
   },
+  components: {
+    MuiTypography: {
+      styleOverrides: {
+        root: {
+          overflow: 'visible', // Display overflowing text
+          textOverflow: 'unset', // Remove ellipsis
+        },
+      },
+    },
+  },
 });
 
 export default theme;

@@ -17,7 +17,9 @@ These are the resources I used to learn and practice skills for the AZ204 exam.
 ### **Microsoft content**
 
 [Read and understand the exam structure and content covered](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-204)
+
 [Documentation of modules](https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/?practice-assessment-type=certification#certification-prepare-for-the-exam)
+
 [The .NET on Azure series](https://www.youtube.com/watch?v=EzdqO6jX8u4&list=PLdo4fOcmZ0oVSBX3Lde8owu6dSgZLIXfu)
 
 ### **Udemy Course**
