@@ -28,10 +28,12 @@ These are the resources I used to learn and practice skills for the AZ204 exam.
 
 ### **Practice Tests**
 
-[Microsoft's Practice Test](https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/practice/assessment?assessment-type=practice&assessmentId=35&practice-assessment-type=certification&source=docs) This format is different from the actual test
+[Microsoft's Practice Test](https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/practice/assessment?assessment-type=practice&assessmentId=35&practice-assessment-type=certification&source=docs) This format is different from the actual test.
 
 MeasureUp practice tests. I used MeasureUp Practice tests from a work subscription. They were decent but compare other practice test content to find something with positive reviews.
 
 ### **Flash cards**
 
-[Anki](https://apps.ankiweb.net/) I used Anki flashcards on my desktop and phone to be able to memorize and retain Azure content. I would suggest making flash cards of the recap questions at the end of each module and use Anki's spaced repetition system. Watchout for Anki impersonators, there are some scam clones of Anki out there. [Wikipedia](https://en.wikipedia.org/wiki/Anki_(software)
+[Anki](https://apps.ankiweb.net/)
+
+I used Anki flashcards on my desktop and phone to be able to memorize and retain Azure content. I would suggest making flash cards of the recap questions at the end of each module and use Anki's spaced repetition system. Watchout for Anki impersonators, there are some scam clones of Anki out there. [Anki Wikipedia](https://en.wikipedia.org/wiki/Anki_(software)
