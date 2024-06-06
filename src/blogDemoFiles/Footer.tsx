@@ -1,17 +1,17 @@
-import Box from "@mui/material/Box";
-import Container from "@mui/material/Container";
-import Typography from "@mui/material/Typography";
-import Link from "@mui/material/Link";
+import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
+import Typography from '@mui/material/Typography';
+import Link from '@mui/material/Link';
 
 function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" align="center">
-      {"Copyright © "}
+      {'Copyright © '}
       <Link color="inherit" href="https://www.erikgraciosa.com">
         Erik Graciosa
-      </Link>{" "}
+      </Link>{' '}
       {new Date().getFullYear()}
-      {"."}
+      {'.'}
     </Typography>
   );
 }
@@ -27,7 +27,7 @@ export default function Footer(props: FooterProps) {
   return (
     <Box
       component="footer"
-      sx={{ mt: "auto", bgcolor: "background.paper", py: 6 }}
+      sx={{ mt: 'auto', bgcolor: 'background.paper', py: 6 }}
     >
       <Container maxWidth="lg">
         <Typography variant="h6" align="center" gutterBottom>

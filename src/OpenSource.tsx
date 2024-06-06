@@ -1,14 +1,14 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 export default function OpenSource() {
   return (
     <>
       <h1>Coming soon.....</h1>
       <p>
-        Visit{" "}
+        Visit{' '}
         <Link to="https://github.com/ErikGraciosa/pbm-react">
           Pinball Map on Github
-        </Link>{" "}
+        </Link>{' '}
         to see contributions.
       </p>
     </>

@@ -1,6 +1,6 @@
-import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
-import Link from "@mui/material/Link";
+import Toolbar from '@mui/material/Toolbar';
+import Typography from '@mui/material/Typography';
+import Link from '@mui/material/Link';
 
 interface HeaderProps {
   sections: ReadonlyArray<{
@@ -15,7 +15,7 @@ export default function Header(props: HeaderProps) {
 
   return (
     <>
-      <Toolbar sx={{ borderBottom: 1, borderColor: "divider" }}>
+      <Toolbar sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Typography
           component="h2"
           variant="h2"
@@ -24,7 +24,7 @@ export default function Header(props: HeaderProps) {
           noWrap
           sx={{ flex: 1 }}
         >
-          <Link href="/" sx={{ textDecoration: "none", color: "black" }}>
+          <Link href="/" sx={{ textDecoration: 'none', color: 'black' }}>
             {title}
           </Link>
         </Typography>
@@ -32,7 +32,7 @@ export default function Header(props: HeaderProps) {
       <Toolbar
         component="nav"
         variant="dense"
-        sx={{ justifyContent: "space-between", overflowX: "auto" }}
+        sx={{ justifyContent: 'space-between', overflowX: 'auto' }}
       >
         {sections.map((section) => (
           <Link

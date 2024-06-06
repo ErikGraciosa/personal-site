@@ -1,6 +1,6 @@
-import Main from "./blogDemoFiles/Main";
-import post1 from "./blogDemoFiles/blog-post.1.md";
-import post2 from "./blogDemoFiles/blog-post.2.md";
+import Main from './blogDemoFiles/Main';
+import post1 from './blogDemoFiles/blog-post.1.md';
+import post2 from './blogDemoFiles/blog-post.2.md';
 
 const posts = [post2, post1];
 
