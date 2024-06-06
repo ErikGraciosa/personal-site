@@ -16,7 +16,6 @@ export default function Header(props: HeaderProps) {
   return (
     <>
       <Toolbar sx={{ borderBottom: 1, borderColor: 'divider' }}>
-      
         <Typography
           component="h2"
           variant="h2"
@@ -25,7 +24,9 @@ export default function Header(props: HeaderProps) {
           noWrap
           sx={{ flex: 1 }}
         >
-          <Link href="/"sx={{ textDecoration: 'none', color: 'black' }}>{title}</Link>
+          <Link href="/" sx={{ textDecoration: 'none', color: 'black' }}>
+            {title}
+          </Link>
         </Typography>
       </Toolbar>
       <Toolbar

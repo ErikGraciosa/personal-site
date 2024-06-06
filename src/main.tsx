@@ -1,12 +1,9 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom/client';
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import { ThemeProvider } from '@emotion/react';
-import { CssBaseline } from '@mui/material';
+import { Box, CssBaseline } from '@mui/material';
 import theme from './theme';
 import App from './App';
 import Pinball from './Pinball';
@@ -15,29 +12,40 @@ import OpenSource from './OpenSource';
 import Header from './blogDemoFiles/Header';
 
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import Footer from './blogDemoFiles/Footer';
+import AprilMonthView from './AprilMonthView';
+import MayMonthView from './MayMonthView';
 
 const queryClient = new QueryClient();
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <App />,
   },
   {
-    path: "/helloworld",
+    path: '/helloworld',
     element: <div>Hello World</div>,
   },
   {
-    path: "/pinball",
-    element: <Pinball/>,
+    path: '/pinball',
+    element: <Pinball />,
   },
   {
-    path: "/projects",
-    element: <Projects/>,
+    path: '/projects',
+    element: <Projects />,
   },
   {
-    path: "/opensource",
-    element: <OpenSource/>,
+    path: '/opensource',
+    element: <OpenSource />,
+  },
+  {
+    path: '/April2024',
+    element: <AprilMonthView />,
+  },
+  {
+    path: '/May2024',
+    element: <MayMonthView />,
   },
 ]);
 
@@ -52,9 +60,18 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <ThemeProvider theme={theme}>
       <QueryClientProvider client={queryClient}>
         <CssBaseline />
-        <Header title="Erik Graciosa" sections={sections} />
-        <RouterProvider router={router} />
-        </QueryClientProvider>
+        <Box
+          sx={{
+            display: 'flex',
+            flexDirection: 'column',
+            minHeight: '100vh',
+          }}
+        >
+          <Header title="Erik Graciosa" sections={sections} />
+          <RouterProvider router={router} />
+          <Footer />
+        </Box>
+      </QueryClientProvider>
     </ThemeProvider>
-  </React.StrictMode>,
+  </React.StrictMode>
 );

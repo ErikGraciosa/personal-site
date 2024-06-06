@@ -1,13 +1,13 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
-import Papa from "papaparse";
+import Papa from 'papaparse';
 import { DataGrid, GridRowsProp, GridColDef } from '@mui/x-data-grid';
 import { CircularProgress } from '@mui/material';
 
 export default function Pinball() {
-
-  const defaultData = [{
+  const defaultData = [
+    {
       id: 1,
       col1: 'data',
       col2: 'data',
@@ -25,11 +25,13 @@ export default function Pinball() {
       col14: 'data',
       col15: 'data',
       col16: 'data',
-    }]
+    },
+  ];
 
   const [returnedRows, setReturnedRows] = useState<GridRowsProp>(defaultData);
 
-  const sheetsURL= 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQHHB1qQdAe32ZttfefJpkAFL5D6aWAcGTpwXalOayzMUq7VCAFIHwoi-zhjily4N4kjtB33eXFXNCS/pub?gid=1443146497&single=true&output=csv';
+  const sheetsURL =
+    'https://docs.google.com/spreadsheets/d/e/2PACX-1vQHHB1qQdAe32ZttfefJpkAFL5D6aWAcGTpwXalOayzMUq7VCAFIHwoi-zhjily4N4kjtB33eXFXNCS/pub?gid=1443146497&single=true&output=csv';
 
   const fetchSheetData = async () => {
     const response = await axios.get(sheetsURL);
@@ -39,7 +41,7 @@ export default function Pinball() {
 
   const { data, error, isLoading } = useQuery({
     queryKey: ['sheetData'],
-    queryFn: fetchSheetData
+    queryFn: fetchSheetData,
   });
 
   useEffect(() => {
@@ -63,45 +65,51 @@ export default function Pinball() {
           col14: row[13],
           col15: row[14],
           col16: row[15],
-        }
-      })
-      setReturnedRows(fetchedData)
+        };
+      });
+      setReturnedRows(fetchedData);
     }
-  }, [data])
+  }, [data]);
 
-  if (isLoading) return (
-    <div>
-      <p>Data is Loading...</p>
-      <CircularProgress></CircularProgress>
-    </div>
-  );
+  if (isLoading)
+    return (
+      <div>
+        <p>Data is Loading...</p>
+        <CircularProgress></CircularProgress>
+      </div>
+    );
 
   if (error) return <div>An error occurred: {error.message}</div>;
 
   //Data table
   const columns: GridColDef[] = [
-    { field: 'col1', headerName: 'Season', width: 100},
-    { field: 'col2', headerName: 'Stage', width: 100},
-    { field: 'col3', headerName: 'PlayoffLevel', width: 100},
-    { field: 'col4', headerName: 'Week', width: 100},
-    { field: 'col5', headerName: 'HomeTeam', width: 100},
-    { field: 'col6', headerName: 'AwayTeam', width: 100},
-    { field: 'col7', headerName: 'Round', width: 100},
-    { field: 'col8', headerName: 'Format', width: 100},
-    { field: 'col9', headerName: 'Location', width: 100},
-    { field: 'col10', headerName: 'Machine', width: 100},
-    { field: 'col11', headerName: 'HomePlr1', width: 100},
-    { field: 'col12', headerName: 'HomePlr2', width: 100},
-    { field: 'col13', headerName: 'AwayPlr1', width: 100},
-    { field: 'col14', headerName: 'AwayPlr2', width: 100},
-    { field: 'col15', headerName: 'Winner', width: 100},
-    { field: 'col16', headerName: 'Two_on_one', width: 100}
-  ]
-  
+    { field: 'col1', headerName: 'Season', width: 100 },
+    { field: 'col2', headerName: 'Stage', width: 100 },
+    { field: 'col3', headerName: 'PlayoffLevel', width: 100 },
+    { field: 'col4', headerName: 'Week', width: 100 },
+    { field: 'col5', headerName: 'HomeTeam', width: 100 },
+    { field: 'col6', headerName: 'AwayTeam', width: 100 },
+    { field: 'col7', headerName: 'Round', width: 100 },
+    { field: 'col8', headerName: 'Format', width: 100 },
+    { field: 'col9', headerName: 'Location', width: 100 },
+    { field: 'col10', headerName: 'Machine', width: 100 },
+    { field: 'col11', headerName: 'HomePlr1', width: 100 },
+    { field: 'col12', headerName: 'HomePlr2', width: 100 },
+    { field: 'col13', headerName: 'AwayPlr1', width: 100 },
+    { field: 'col14', headerName: 'AwayPlr2', width: 100 },
+    { field: 'col15', headerName: 'Winner', width: 100 },
+    { field: 'col16', headerName: 'Two_on_one', width: 100 },
+  ];
+
   return (
     <>
-        <h1>Data from Google Sheets</h1>
-        <DataGrid getRowHeight={() => 'auto'} sx={{ height: '70vh', width: '100%' }} rows={returnedRows} columns={columns}/>
+      <h1>Data from Google Sheets</h1>
+      <DataGrid
+        getRowHeight={() => 'auto'}
+        sx={{ height: '70vh', width: '100%' }}
+        rows={returnedRows}
+        columns={columns}
+      />
     </>
   );
 }
