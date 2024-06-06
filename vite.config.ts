@@ -1,9 +1,10 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(),
+  plugins: [
+    react(),
     {
       name: "markdown-loader",
       transform(code, id) {
@@ -11,7 +12,7 @@ export default defineConfig({
           // For .md files, get the raw content
           return `export default ${JSON.stringify(code)};`;
         }
-      }
-    }
-  ]  
-})
+      },
+    },
+  ],
+});
