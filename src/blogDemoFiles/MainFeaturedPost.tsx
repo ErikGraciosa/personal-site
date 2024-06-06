@@ -17,6 +17,7 @@ interface MainFeaturedPostProps {
     imageText: string;
     linkText: string;
     title: string;
+    certifications: string;
   };
 }
 
@@ -90,6 +91,9 @@ export default function MainFeaturedPost(props: MainFeaturedPostProps) {
             </Typography>
             <Typography variant="h5" color="inherit" paragraph>
               {post.other}
+            </Typography>
+            <Typography variant="h5" color="inherit" paragraph>
+              {post.certifications}
             </Typography>
             <Link variant="subtitle1" href="#">
               {post.linkText}
